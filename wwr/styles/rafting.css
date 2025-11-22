@@ -78,7 +78,8 @@ nav, p, section, article {
 }
 
 footer img {
+    justify-content: space-around;
     position: relative;
-    width: 40px;
+    width: 50px;
     opacity: 0.5;
 }
