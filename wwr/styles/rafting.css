@@ -54,8 +54,8 @@ nav, p, section, article {
     padding: 16px;
     text-align: center;
     opacity: 0.7;
-    background-color: rgba(48, 4, 4, 0.308);
-    color: #fff
+    background-color: var(--accent2-color);
+    color: #264653;
 }
 
 .hero article {
@@ -65,7 +65,7 @@ nav, p, section, article {
     right: 20px;
     bottom: 0.5px;
     max-width: 93%;
-    background-color: darkgoldenrod;
+    background-color: var(--accent2-color);
     padding: 2px;
     border-radius: 8px;
 }
