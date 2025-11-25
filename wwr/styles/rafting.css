@@ -6,6 +6,7 @@
     --heading-font: "Times New Roman", "Georgia". serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -23,7 +24,7 @@ header, main, footer {
 }
 
 h1, h2 {
-    font-family: var(heading --body-font);
+    font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
@@ -62,18 +63,18 @@ nav, p, section, article {
     float: left;
     position: absolute;
     right: 20px;
-    bottom: 1px;
-    max-width: 100%;
+    bottom: 0.5px;
+    max-width: 93%;
     background-color: darkgoldenrod;
-    padding: 3px;
+    padding: 2px;
     border-radius: 8px;
 }
 .hero article img {
     float: right;
-    width: 125px;
+    width: 150px;
     margin-left: 12px;
     margin-bottom: 8px;
-    border-radius: 4px;
+    border-radius: 8;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
