@@ -1,8 +1,8 @@
 :root {
   --primary-color: #055a05; 
   --secondary-color: #f4a261;
-  --accent1-color: #264653; 
   --accent2-color: #e9c46a; 
+  --accent1-color: #264653; 
   --heading-font: "Times New Roman", "Georgia", serif;
   --body-font: Arial, Helvetica, sans-serif;
 }
@@ -74,7 +74,7 @@ nav, p, section, article {
     width: 150px;
     margin-left: 12px;
     margin-bottom: 8px;
-    border-radius: 8;
+    border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
