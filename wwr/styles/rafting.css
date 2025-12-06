@@ -120,13 +120,13 @@ gap: 1rem;
 }
 
 .adventure-photos figure {
-width: 50%;
+width: 90
 display: flex;
 justify-content: space-between;
 }
 
 .adventure-photos img {
-width: 120%;
+width: 90%;
 height: 20%;
 border-radius: 6px;
 }
